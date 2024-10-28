@@ -13,6 +13,7 @@ use PhpOffice\PhpWord\Settings;
 
 Autoloader::register();
 
+
 $word = new  PhpOffice\PhpWord\PhpWord();
 
 $alu = $_SESSION["report_data"];
